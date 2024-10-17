@@ -1,25 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comidas</title>
     <link rel="stylesheet" href="Style.css">
 </head>
+
 <body>
     <header>
-        
+
         <nav>
             <ul>
-                <li><a>pizzas</a></li>
-                <li><a>pizzas</a></li>
-                <li><a>pizzas</a></li>
+                <button class="head">
+                    <a href="Historia.html">Conocenos</a>
+                </button>
+                <button class="head">
+                    <a href="Integrantes.html">Integrantes</a>
+                </button>
+                <button class="head">
+                    <a href="Sucursales.html">Sucursales</a>
+                </button>
             </ul>
         </nav>
 
-        <img src="Imagenes/Portada.jpg">
-        
+        <img src="Imagenes/Portada.avif" alt="Portada">
+
     </header>
-    
+    <main>
+        <div>
+            <h1 class="titulo">NUESTRAS ESPECIALIDADES</h1>
+        </div>
+        <div class="filas_main">
+            <div class="texto">
+                
+                <img src="Imagenes/Pizza.avif">
+                <div class="recetas">
+                    <h2>Pizza Margarita</h2>
+                    <p>
+                        La pizza Margarita es una receta clásica italiana que resalta por su sencillez y sabor fresco. Su
+                        base es una masa fina y crujiente, sobre la cual se esparce una capa ligera de salsa de tomate
+                        natural. La salsa, hecha con tomates frescos, ajo, y un toque de aceite de oliva, tiene un sabor
+                        suave y ligeramente dulce. Encima, se colocan rodajas de mozzarella fresca, que se derrite al
+                        hornearse creando hilos cremosos y burbujeantes. Se corona con hojas frescas de albahaca, que añaden
+                        un aroma herbal y un toque de color vibrante. El toque final es un chorrito de aceite de oliva extra
+                        virgen que realza los sabores naturales de cada ingrediente. Al salir del horno, la combinación de
+                        tomate, queso y albahaca se funde en una armonía deliciosa de texturas y aromas mediterráneos.
+                    </p>
+                </div>
+
+            </div>
+            <div class="texto">
+                <img src="Imagenes/Hamburguesa.webp">
+                <div class="recetas">
+                    <h2>Hamburguesa Clásica</h2>
+                    <p>
+                        La hamburguesa clásica es una preparación sencilla pero deliciosa, que comienza con un jugoso
+                        medallón de carne molida, generalmente de res. La carne se sazona con sal y pimienta antes de
+                        cocinarse a la parrilla o en una plancha, donde se sella para obtener una capa exterior dorada y
+                        crujiente, mientras se mantiene tierna y jugosa por dentro. Al cocinarse, se coloca una loncha de
+                        queso cheddar que se derrite lentamente sobre la carne caliente.
+
+                        El medallón se sirve dentro de un pan de hamburguesa suave y ligeramente tostado, que aporta un
+                        toque crujiente al primer mordisco. Se suele acompañar con ingredientes frescos como hojas de
+                        lechuga crujiente, rodajas de tomate maduro, y cebolla. Opcionalmente, se agregan pepinillos en
+                        rodajas para un toque ácido y crujiente.
+
+                        La hamburguesa se complementa con condimentos como mayonesa, ketchup y mostaza, que se untan en las
+                        mitades del pan, aportando una mezcla de sabores dulces y picantes. Al ensamblar todo, el contraste
+                        entre la carne jugosa, el queso fundido, los vegetales frescos, y los condimentos crea una
+                        combinación equilibrada y sabrosa. Esta hamburguesa es perfecta para acompañar con papas fritas y
+                        una bebida fría.
+                    </p>
+                </div>
+            </div>
+            <div class="texto">
+                <img src="Imagenes/Ensalada.webp">
+                <div class="recetas">
+                    <h2>Ensalada César Clásica</h2>
+                
+                    <p>
+                        La ensalada César es una receta fresca y deliciosa que combina ingredientes simples con un aderezo
+                        cremoso y lleno de sabor. Esta versión clásica se prepara con lechuga romana crujiente, crutones
+                        tostados y un aderezo casero a base de anchoas, ajo y queso parmesano.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="form">
+            <h2>PEDIDOS</h2>
+            <form id="pedido_form">
+                <label>Comidas</label>
+                    <div class="box_comidas">
+                        <label for="Pizza">Pizza</label>
+                        <input type="checkbox" id="Pizza" name="comida_tipo" value="Pizza">
+                        <label for="Hamburguesa">Hamburguesa</label>
+                        <input type="checkbox" id="Hamburguesa" name="comida_tipo" value="Hamburguesa">
+                        <label for="Ensalada">Ensalada</label>
+                        <input type="checkbox" id="Ensalada" name="comida_tipo" value="Ensalada">
+                    </div>
+                    <div class="tresforms">
+                            <form class="fpizza">
+                                
+                            </form>
+                            <form class="fhambuguesa">
+
+                            </form>
+                            <form class="fensalada">
+
+                            </form>
+                    </div>
+                    <div class="Observacionarea">
+                        <label for="Observacion">Observaciones</label>
+                        <textarea></textarea>
+                    </div>
+            </form>
+            <footer>
+                <p>&copy; 2024 Eventos. Todos los derechos reservados.</p>
+                <ul>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                </ul>
+            </footer>
+        </div>
+    </main>
+
 </body>
+
 </html>

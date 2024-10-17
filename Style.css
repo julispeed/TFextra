@@ -1,8 +1,31 @@
+*
+{
+    font-family: sans-serif;
+}
+a
+{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family:Arial
+}
+a:visited
+{
+    color: rgb(255, 255, 255);
+    background-color: aliceblue;
+}
 body
 {
     background-color: yellow;
     margin: 0;
 }
+.head
+{
+   background-color: black;
+   margin-left: 20vh;
+   margin-right: 20vh;
+}
+
+/*encabezado*/
 header
 {
     display: flex;
@@ -22,8 +45,73 @@ nav ul
     justify-content: center;
     
 }
-li
+nav ul a
 {
     margin-left: 5%;
     margin-right: 5%;
 }
+/*fin encabezado*/
+
+
+.filas_main
+{
+    display: flex;
+    
+}
+.filas_main div
+{
+    width: 100%;
+    height: 50%;
+}
+.filas_main div img
+{
+    width: 100%;
+    height: 60vh;
+}
+.titulo
+{
+    text-align: center;
+}
+.texto p
+{
+    text-align: justify;
+    margin: 10px;
+    height: 50vh;
+    color: rgb(189, 240, 239);
+}
+.texto h2
+{
+    color: aliceblue;
+}
+.recetas
+{
+    background-image: url('Imagenes/fondorecetas.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Form*/
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+form 
+{
+    text-align: center;
+}
+
+.Observacionarea
+{
+    display: flex;
+    flex-direction: column;
+}
+textarea
+{
+    width: 70vh;
+    height: 40vh;
+}
+
+/*fin Form*/
