@@ -113,5 +113,20 @@ textarea
     width: 70vh;
     height: 40vh;
 }
+/*Fforms*/
+.tresformsp
+{
+    display: none;
+}
+.tresformse
+{
+    display: none;
+}
+.tresformsh
+{
+    display: none;
+}
+/*fin Fforms*/
+
 
 /*fin Form*/
